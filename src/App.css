@@ -27,6 +27,8 @@ button{
 .app {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
+  padding: 20px 10px 200px 10px;
   min-height: 100vh;
   background-position: center;
   background-size: cover;
@@ -43,7 +45,7 @@ button{
   }
 
 .app__container{
-  width: 500px;
+  max-width: 500px;
   height: 150px;
   text-align: center;
   display: flex;
